@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sri Harshavarth M • Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="top-nav">
+      <div class="container">
+        <a href="#home" class="brand">Sri Harshavarth M</a>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="nav-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#resume">Resume</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-layers" aria-hidden="true">
+          <span class="hero-orb hero-orb--one"></span>
+          <span class="hero-orb hero-orb--two"></span>
+          <span class="hero-orb hero-orb--three"></span>
+        </div>
+
+        <div class="container hero-content">
+          <!-- 🔹 PHOTO BLOCK MOVED ABOVE HERO TEXT -->
+          <div class="hero-card">
+            <div class="hero-card__inner" data-tilt data-tilt-reset>
+              <div class="profile-glow"></div>
+              <img
+                src="WhatsApp Image 2025-11-10 at 7.20.52 PM.jpeg"
+                alt="Sri Harshavarth M"
+              />
+              <div class="hero-card__meta">
+                <span class="meta-pill">Full Stack Developer</span>
+                <span class="meta-pill">IT Student</span>
+                <span class="meta-pill">Tech Explorer</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 🔹 HERO TEXT BELOW IMAGE ON MOBILE -->
+          <div class="hero-text">
+            <p class="eyebrow">Full Stack Developer & Problem Solver</p>
+            <h1>Building tech that connects with people</h1>
+            <p class="lead">
+              <strong
+                >I’m Sri Harshavarth, a B.Tech IT student who loves building things that work
+                beautifully.</strong
+              >
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn primary" href="#projects">View Projects</a>
+              <a class="btn secondary" href="#contact">Contact Me</a>
+              <a
+                class="btn tertiary"
+                href="Sri Harshavarth Resume.pdf.pdf"
+                target="_blank"
+                rel="noopener"
+                >Download Resume</a
+              >
+            </div>
+
+            <div class="hero-stats">
+              <div class="hero-stat">
+                <span>340+</span>
+                <small>LeetCode Problems</small>
+              </div>
+              <div class="hero-stat">
+                <span>12+</span>
+                <small>Tech Tools</small>
+              </div>
+              <div class="hero-stat">
+                <span>8.6</span>
+                <small>CGPA</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="container split">
+          <div class="section-heading">
+            <span class="section-eyebrow">About</span>
+            <h2>Driven by curiosity and a passion for impactful development.</h2>
+          </div>
+          <div class="section-body">
+            <p>
+              I’m a developer who enjoys turning ideas into reality through clean, efficient
+              code. My interest lies in building full-stack web applications and solving
+              real-world problems through thoughtful software solutions.
+            </p>
+            <p>
+              I focus on learning continuously and adapting to new technologies to achieve my
+              goals. With experience in both frontend and backend development, I love
+              designing systems that are both functional and user-friendly.
+            </p>
+            <div class="highlights">
+              <div class="highlight">
+                <span class="highlight-number">330+</span>
+                <span class="highlight-label">LeetCode Problems</span>
+              </div>
+              <div class="highlight">
+                <span class="highlight-number">4+</span>
+                <span class="highlight-label">Projects Completed</span>
+              </div>
+              <div class="highlight">
+                <span class="highlight-number">12+</span>
+                <span class="highlight-label">Tools & Frameworks</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section skills" id="skills">
+        <div class="container">
+          <div class="section-heading centered">
+            <span class="section-eyebrow">Skills & Tools</span>
+            <h2>A versatile stack for modern development.</h2>
+          </div>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <h3>Frontend</h3>
+              <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>React.js, Bootstrap</li>
+                <li>Laravel (Frontend Integration)</li>
+              </ul>
+            </div>
+            <div class="skill-card">
+              <h3>Backend</h3>
+              <ul>
+                <li>Node.js, Express.js</li>
+                <li>MySQL, MongoDB</li>
+                <li>RESTful APIs</li>
+              </ul>
+            </div>
+            <div class="skill-card">
+              <h3>Programming</h3>
+              <ul>
+                <li>Java</li>
+                <li>C / C++ / Python</li>
+                <li>Data Structures & Algorithms</li>
+              </ul>
+            </div>
+            <div class="skill-card">
+              <h3>Tools & Cloud</h3>
+              <ul>
+                <li>Git & GitHub</li>
+                <li>Docker, AWS, Render</li>
+                <li>Postman, SQL Workbench, VS Code</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section projects" id="projects">
+        <div class="container">
+          <div class="section-heading">
+            <span class="section-eyebrow">Projects</span>
+            <h2>Building real-world solutions with code.</h2>
+          </div>
+          <div class="project-grid">
+            <article class="project-card" data-tilt>
+              <div class="project-content">
+                <h3>Employee Portal Website</h3>
+                <p>
+                  Developed a full-stack employee portal supporting 100+ users simultaneously,
+                  streamlining CRUD operations and user management with MySQL integration.
+                </p>
+                <p>
+                  <strong>Tech:</strong> HTML, CSS, JS, Node.js, Express.js, MySQL, Laravel
+                </p>
+              </div>
+            </article>
+
+            <article class="project-card" data-tilt>
+              <div class="project-content">
+                <h3>To-Do List App</h3>
+                <p>
+                  Built an offline-capable web app for creating and managing tasks, ensuring
+                  seamless user experience even in low-connectivity conditions.
+                </p>
+                <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+              </div>
+            </article>
+
+            <article class="project-card" data-tilt>
+              <div class="project-content">
+                <h3>E-Commerce Website</h3>
+                <p>
+                  Designed and developed a dynamic e-commerce platform with secure
+                  authentication, admin/user dashboards, and Stripe-based payment integration.
+                </p>
+                <p><strong>Tech:</strong> Laravel, Node.js, MySQL</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section experience" id="experience">
+        <div class="container">
+          <div class="section-heading centered">
+            <span class="section-eyebrow">Experience</span>
+            <h2>Professional Experience</h2>
+          </div>
+          <div class="timeline">
+            <div class="timeline-item">
+              <span class="timeline-year">Nov 2025 – Dec 2025</span>
+              <div>
+                <h3>
+                  Full Stack Developer Intern • Friendzion Technologies Pvt. Ltd.
+                </h3>
+                <p>
+                  Built responsive web applications using HTML, CSS, JS, and Node.js, integrated
+                  real-time data sync, and developed secure authentication systems. Delivered an
+                  e-commerce app with billing integration using Stripe API.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section resume" id="resume">
+        <div class="container centered">
+          <h2>Resume</h2>
+          <p>
+            Download my complete resume below for detailed experience and projects.
+          </p>
+          <a
+            class="btn primary"
+            href="Sri%20Harshavarth%20Resume.pdf.pdf"
+            target="_blank"
+            rel="noopener"
+            >Download Resume</a
+          >
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="container split">
+          <div class="section-heading">
+            <span class="section-eyebrow">Contact</span>
+            <h2>Let’s Connect</h2>
+          </div>
+          <div class="section-body">
+            <p>
+              I’m always open to collaborations, projects, or tech discussions. Feel free to
+              reach out!
+            </p>
+            <ul class="contact-list">
+              <li>
+                <span>Email</span>
+                <a href="mailto:sriharshavarth@gmail.com"
+                  >sriharshavarth@gmail.com</a
+                >
+              </li>
+              <li>
+                <span>LinkedIn</span>
+                <a
+                  href="https://www.linkedin.com/in/sri-harshavarth-m-a927ba30b/"
+                  target="_blank"
+                  >linkedin.com/in/sri-harshavarth-m</a
+                >
+              </li>
+              <li>
+                <span>GitHub</span>
+                <a href="https://github.com/SriHarshavarthM" target="_blank"
+                  >github.com/SriHarshavarthM</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© <span id="year"></span> Sri Harshavarth M. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#home">Top</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
